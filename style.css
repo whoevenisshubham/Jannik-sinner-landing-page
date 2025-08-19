@@ -1,0 +1,202 @@
+body {
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    box-shadow: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 36px;
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 960px;
+}
+
+.dark {
+    background-color: #1F2937;
+}
+
+.light {
+    background-color: #fff;
+}
+
+.gray {
+    background-color: #E5E7EB;
+}
+
+#header {
+    align-items: center;
+    margin: 18px 0;
+}
+
+#logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#nav {
+    margin-left: auto;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#hero-sub {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#splash {
+    padding: 100px 0;
+    gap: 50px;
+}
+
+#splash-left,
+#splash-right {
+    flex: 1;
+}
+
+#splash-right {
+    background-color: rgb(162, 165, 172);
+    color: #E5E7EB;
+}
+
+#splash-right img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#info-header {
+    margin: 50px 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info {
+    justify-content: center;
+    gap: 64px;
+    margin-bottom: 100px;
+}
+
+.info-section {
+    width: 150px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.info-box {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#quote,
+#quote-author {
+    color: #1F2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 100px;
+}
+
+#quote.container,
+#quote-author.container {
+    width: 760px;
+}
+
+#quote-author {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 100px;
+    text-align: right;
+}
+
+#action {
+    border-radius: 8px;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+#action.container {
+    width: 760px;
+    padding: 60px 100px;
+    margin: 100px 0;
+}
+
+#action-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#action-sub {
+    color: #E5E7EB;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#action-right {
+    margin-left: auto;
+}
+
+#action-right button {
+    border: 2px solid #fff;
+}
+
+#footer {
+    margin-top: auto;
+    color: #E5E7EB;
+    padding: 48px 0;
+}
